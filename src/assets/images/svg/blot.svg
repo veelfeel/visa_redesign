@@ -1,0 +1,91 @@
+ <svg
+          width="284"
+          height="284"
+          viewBox="-36 30 200 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            id="path2"
+            d="M82.5 47C82.5 67.4345 64.4345 77 44 77C23.5655 77 7 60.4345 7 40C7 19.5654 7 -5.99999 44 2.99998C64.4345 2.99998 82.5 26.5655 82.5 47Z"
+            fill="transparent"
+          />
+          <path
+            id="path3"
+            d="M82.5 47.0001C82.5 67.4346 64.4345 77.0001 44 77.0001C23.5655 77.0001 7 60.4346 7 40C7 19.5655 31 -6.49997 68 2.5C88.4345 2.5 82.5 26.5655 82.5 47.0001Z"
+            fill="transparent"
+          />
+          <path
+            id="path4"
+            d="M86.5 43.5C82.5 77 64.4345 77 44 77C23.5655 77 7 60.4345 7 40C7 19.5655 13 -0.499942 50 8.50003C70.4345 8.50003 86.5 23.0655 86.5 43.5Z"
+            fill="transparent"
+          />
+          <path
+            id="path5"
+            d="M83 56C79 89.5 60.4345 77.4999 40 77.4999C19.5655 77.4999 11.5 59 11.5 34.9999C11.5 9 11.5 6.21097 50 6.21094C70.4345 6.21094 83 35.5655 83 56Z"
+            fill="transparent"
+          />
+          <path
+            id="path6"
+            d="M81.5 52.5C77.5 86 55.9345 83.5 35.5 83.5C15.0655 83.5 11.5 62.7891 11.5 38.7889C11.5 12.7891 11.5 10 50 10C70.4345 10 81.5 32.0655 81.5 52.5Z"
+            fill="transparent"
+          />
+
+          <circle r="20" fill="#A9D8FF">
+            <animateMotion dur="27s" repeatCount="indefinite">
+              <mpath xlink:href="#path" />
+            </animateMotion>
+          </circle>
+
+          <circle r="30" fill="#A9D8FF">
+            <animateMotion dur="15s" repeatCount="indefinite">
+              <mpath xlink:href="#path2" />
+            </animateMotion>
+          </circle>
+
+          <circle r="20" fill="#A9D8FF">
+            <animateMotion dur="21s" repeatCount="indefinite">
+              <mpath xlink:href="#path3" />
+            </animateMotion>
+          </circle>
+
+          <circle r="30" fill="#A9D8FF">
+            <animateMotion dur="18s" repeatCount="indefinite">
+              <mpath xlink:href="#path4" />
+            </animateMotion>
+          </circle>
+
+          <circle r="20" fill="#A9D8FF">
+            <animateMotion dur="13s" repeatCount="indefinite">
+              <mpath xlink:href="#path5" />
+            </animateMotion>
+          </circle>
+
+          <circle r="30" fill="#A9D8FF">
+            <animateMotion dur="24s" repeatCount="indefinite">
+              <mpath xlink:href="#path6" />
+            </animateMotion>
+          </circle>
+
+          <path
+            id="path"
+            d="M77 52.5C73 86 51.4345 83.5 31 83.5C10.5655 83.5 0 79.5001 0 55.5C0 29.5001 7 10 45.5 10C65.9345 10 77 32.0655 77 52.5Z"
+            fill="#A9D8FF"
+          >
+            <animate
+              attributeName="d"
+              dur="10s"
+              repeatCount="indefinite"
+              values="
+                  M77 52.5C73 86 51.4345 83.5 31 83.5C10.5655 83.5 0 79.5001 0 55.5C0 29.5001 7 10 45.5 10C65.9345 10 77 32.0655 77 52.5Z;
+                  M82.5 47C82.5 67.4345 64.4345 77 44 77C23.5655 77 7 60.4345 7 40C7 19.5654 7 -5.99999 44 2.99998C64.4345 2.99998 82.5 26.5655 82.5 47Z;
+                  M82.5 47.0001C82.5 67.4346 64.4345 77.0001 44 77.0001C23.5655 77.0001 7 60.4346 7 40C7 19.5655 31 -6.49997 68 2.5C88.4345 2.5 82.5 26.5655 82.5 47.0001Z;
+                  M86.5 43.5C82.5 77 64.4345 77 44 77C23.5655 77 7 60.4345 7 40C7 19.5655 13 -0.499942 50 8.50003C70.4345 8.50003 86.5 23.0655 86.5 43.5Z;
+                  M83 56C79 89.5 60.4345 77.4999 40 77.4999C19.5655 77.4999 11.5 59 11.5 34.9999C11.5 9 11.5 6.21097 50 6.21094C70.4345 6.21094 83 35.5655 83 56Z;
+                  M81.5 52.5C77.5 86 55.9345 83.5 35.5 83.5C15.0655 83.5 11.5 62.7891 11.5 38.7889C11.5 12.7891 11.5 10 50 10C70.4345 10 81.5 32.0655 81.5 52.5Z;
+                  M77 52.5C73 86 51.4345 83.5 31 83.5C10.5655 83.5 0 79.5001 0 55.5C0 29.5001 7 10 45.5 10C65.9345 10 77 32.0655 77 52.5Z;
+              "
+            />
+    </path>
+</svg>

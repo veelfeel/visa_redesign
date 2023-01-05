@@ -1,0 +1,134 @@
+.footer {
+  &__items {
+    border-top: var(--border);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 90px;
+
+    @include big-desktop {
+      grid-template-columns: repeat(3, 1fr);
+      border-width: 1px;
+    }
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include very-small-tablet {
+      grid-template-columns: 1fr;
+      grid-row-gap: 50px;
+    }
+  }
+
+  &__item {
+    &-title {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 110%;
+      padding-bottom: 30px;
+
+      @include big-desktop {
+        font-size: 22px;
+        padding-bottom: 20px;
+      }
+    }
+
+    &--select {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-self: flex-end;
+      gap: 10px;
+      width: 180px;
+      height: 36px;
+      padding: 5px 10px;
+      border: var(--border);
+      cursor: pointer;
+
+      &:hover {
+        p {
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+
+      @include big-desktop {
+        width: 165px;
+        padding: 5px 7px;
+
+        & img {
+          &:first-child {
+            width: 26px;
+          }
+
+          &:last-child {
+            width: 10px;
+          }
+        }
+      }
+
+      p {
+        font-family: "GTEestiProText", sans-serif;
+        font-weight: 300;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.7);
+
+        @include big-desktop {
+          font-size: 16px;
+        }
+      }
+    }
+
+    &--social {
+      display: flex;
+      gap: 30px;
+      align-self: flex-end;
+
+      @include big-desktop {
+        gap: 20px;
+        a {
+          img {
+            width: 32px;
+          }
+        }
+      }
+    }
+
+    &:nth-child(1) {
+      img {
+        @include big-desktop {
+          width: 100px;
+        }
+
+        @include mobile {
+          width: 82px;
+        }
+
+        @media (max-width: 400px) {
+          width: 60px;
+        }
+      }
+    }
+  }
+
+  &__text-items {
+    & .text-desc-top {
+      // @include big-desktop {
+      font-size: 16px;
+
+      &:not(:last-child) {
+        padding-bottom: 12px;
+      }
+      // }
+
+      & a {
+        color: rgba(0, 0, 0, 0.7);
+
+        &:hover {
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+    }
+  }
+}

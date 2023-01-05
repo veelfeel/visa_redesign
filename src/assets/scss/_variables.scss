@@ -1,0 +1,9 @@
+:root {
+  --content-width: 1290px;
+  --container-offset: 55px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  --border: 1px solid rgba(0, 0, 0, 0.2);
+
+  --bar-bg: #212529;
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff")
+    format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff")
+    format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff")
+    format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-MediumItalic.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff")
+    format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Heavy.woff")
+    format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "GTEestiProText";
+  src: url("../fonts/GTEestiProText/GTEestiProText-Light.woff") format("woff"),
+    url("../fonts/GTEestiProText/GTEestiProText-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "GTEestiProText";
+  src: url("../fonts/GTEestiProText/GTEestiProText-Regular.woff") format("woff"),
+    url("../fonts/GTEestiProText/GTEestiProText-Regular.woff2") format("woff2");
+  font-weight: normal;
+}

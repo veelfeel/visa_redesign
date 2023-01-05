@@ -1,0 +1,83 @@
+.faq {
+  padding: 70px 0 140px;
+
+  @include big-desktop {
+    padding-top: 55px;
+    padding-bottom: 110px;
+  }
+
+  @include tablet {
+    padding-top: 20px;
+  }
+
+  &__tabs {
+    justify-self: flex-end;
+    max-width: 740px;
+    width: 100%;
+
+    @include tablet {
+      justify-self: center;
+      max-width: 100%;
+    }
+  }
+
+  &__tab {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: var(--border);
+    cursor: pointer;
+
+    &:hover {
+      p {
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+
+    @include big-desktop {
+      border-width: 1px;
+    }
+
+    &:last-child {
+      border-bottom: var(--border);
+
+      @include big-desktop {
+        border-width: 1px;
+      }
+    }
+
+    @include big-desktop {
+      padding: 20px 0;
+    }
+
+    & p {
+      max-width: 80%;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.7);
+
+      @include big-desktop {
+        font-size: 18px;
+      }
+    }
+
+    & span {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #f8f8f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include big-desktop {
+        width: 40px;
+        height: 40px;
+
+        img {
+          width: 14px;
+        }
+      }
+    }
+  }
+}
